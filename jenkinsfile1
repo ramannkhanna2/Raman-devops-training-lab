@@ -34,7 +34,7 @@ pipeline {
 
         stage('Archive') {
             steps {
-                archiveArtifacts artifacts: 'build/*.zip', fingerprint: true
+                archiveArtifacts artifacts: 'raman-build-46/*.zip', fingerprint: true
             }
         }
     }
